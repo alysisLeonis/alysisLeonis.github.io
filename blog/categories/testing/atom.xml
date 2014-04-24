@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: pr0n | CashFlos cooler Blog]]></title>
-  <link href="http://alysisLeonis.github.io/blog/categories/pr0n/atom.xml" rel="self"/>
+  <title><![CDATA[Category: testing | CashFlos cooler Blog]]></title>
+  <link href="http://alysisLeonis.github.io/blog/categories/testing/atom.xml" rel="self"/>
   <link href="http://alysisLeonis.github.io/"/>
-  <updated>2014-04-24T14:26:06+02:00</updated>
+  <updated>2014-04-24T15:43:09+02:00</updated>
   <id>http://alysisLeonis.github.io/</id>
   <author>
     <name><![CDATA[CashFlo]]></name>
@@ -23,7 +23,7 @@
 <!-- more -->
 
 
-<p>Das ist -beschissen- schön.</p>
+<p>Das ist schön.</p>
 ]]></content>
   </entry>
   
