@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>GitHub_page - Leonis and alysis</title>
+  <title>Leonis and alysis</title>
   <meta name="author" content="Leonis Holding">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://alysisLeonis.github.io/github-page">
+  <link rel="canonical" href="http://alysisLeonis.github.io/blog.html">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="Leonis and alysis" type="application/atom+xml">
 
@@ -44,7 +44,7 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li >
+                <li class="active">
                     <a href="/">Blog</a>
                 </li>
                 
@@ -92,238 +92,20 @@
         <div id="content">
           <div class="row">
   <div class="page-content col-md-9">
-    <article role="article">
+    <div class="blog-index">
       
-        <header class="page-header">
-          
-            <p class="meta text-muted text-uppercase">
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-24T16:59:00+02:00" pubdate data-updated="true">Apr 24<span>th</span>, 2014</time></p>
-          
-          
-            <h1 class="entry-title">
-              GitHub_page
-              
-            </h1>
-          
-        </header>
       
-      <div class="entry-content">
-        <!-- stolen and hacked from http://carlboettiger.info/software.html -->
-
-<style>
-/* don&#8217;t display the page header, we use a *huge* jumbotron in the content. */
-/*header.page-header {
-    display: none;
-}*/
-</style>
-
-<div class="jumbotron">
-    <h1>CashFlo&#8217;s <strong>COOL</strong> Projects</h1>
-    <p>
-        Lorem Ipsum Dolor sit Amet. Et Cetera et Rhabarbera.
-    </p>
-    <p class="clearfix">
-        <a class="btn btn-primary btn-lg pull-right" role="button" href="https://github.com//">
-            my GitHub profile »
-        </a>
-    </p>
-</div>
-<div class="row">
-    <div id="statistics" class="col-md-3">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Statistics</h3>
-            </div>
-            <div class="panel-body">
-                <p>
-                    <a href="https://github.com//repositories"><span id="num-repos">&nbsp;</span> public repos</a>
-                    <br>
-                </p>
-                
-                    <p class="email"><a href="mailto:"></a></p>
-                
-            </div>
-        </div>
     </div>
-    <div id="recently-updated" class="col-md-9">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Recently updated</h3>
-            </div>
-            <ul id="recently-updated-repos" class="list-group"></ul>
-        </div>
-    </div>
-</div>
-<div id="repos" class="row"></div>
 
-
-<script src="/javascripts/strftime.js" type="text/javascript"></script>
-<script type="text/javascript">
-(function ($, undefined) {
-
-  // Put custom repo URL's in this object, keyed by repo name.
-  var repoUrls = {
-  };
-  // Put custom repo descriptions in this object, keyed by repo name.
-  var repoDescriptions = {
-  };
-
-  function repoUrl(repo) {
-    return repoUrls[repo.name] || repo.html_url;
-  }
-  function repoDescription(repo) {
-    return repoDescriptions[repo.name] || repo.description;
-  }
-
-  function addRecentlyUpdatedRepo(repo) {
-      var $item = $(
-          '<li class="list-group-item">' +
-              '<strong><a class="name"></a></strong> ' +
-              '<small class="meta text-muted">' +
-                  '<span class="glyphicon glyphicon-calendar"></span> <span class="time"></span> ' +
-                  '<span class="glyphicon glyphicon-exclamation-sign"></span> <span class="open_issues"></span> ' +
-                  '<span class="glyphicon glyphicon-eye-open"></span> <span class="watchers"></span> ' +
-                  '<span class="glyphicon glyphicon-cutlery"></span> <span class="forks"></span> ' +
-              '</small>' +
-          '</li>'
-      );
-
-    $item.find('.name').attr("href", repo.html_url).text(repo.name);
-
-    $item.find('.time').text(strftime("%h %e, %Y", repo.pushed_at));
-    $item.find('.open_issues').text(repo.open_issues + " issues");
-    $item.find('.watchers').text(repo.watchers + " watchers");
-    $item.find('.forks').text(repo.forks + " forks");
-
-    $item.appendTo("#recently-updated-repos");
-  }
-
-  function addRepo(repo) {
-      var $item = $(
-          '<div class="repo col-md-4 col-sm-6">' +
-              '<div class="panel panel-default">' +
-                  '<div class="panel-heading">' +
-                      '<a class="gh-repo-link name" role="button"></a>' +
-                      '<span class="language label label-default meta pull-right">' +
-                      '</span>' +
-                  '</div>' +
-                  '<div class="panel-body">' +
-                      '<p class="description"></p>' +
-                  '</div>' +
-              '</div>' +
-          '</div>'
-      );
-
-    $item.find('.repo').addClass((repo.language || '').toLowerCase());
-    $item.find('.name').text(repo.name);
-    $item.find('a.gh-repo-link').attr("href", repoUrl(repo));
-    $item.find('.language').text(repo.language);
-    $item.find('.description').text(repoDescription(repo));
-
-    $item.appendTo("#repos");
-  }
-
-  $.getJSON("https://api.github.com/users/alysisLeonisAdmin/repos?per_page=100&callback=?", function (result) {
-    var repos = result.data;
-
-    $(function () {
-      $("#num-repos").text(repos.length);
-
-      // Convert pushed_at to Date.
-      $.each(repos, function (i, repo) {
-        repo.pushed_at = new Date(repo.pushed_at);
-
-        var weekHalfLife  = 1.146 * Math.pow(10, -9);
-
-        var pushDelta    = (new Date) - Date.parse(repo.pushed_at);
-        var createdDelta = (new Date) - Date.parse(repo.created_at);
-
-        var weightForPush = 1;
-        var weightForWatchers = 1.314 * Math.pow(10, 7);
-
-        repo.hotness = weightForPush * Math.pow(Math.E, -1 * weekHalfLife * pushDelta);
-        repo.hotness += weightForWatchers * repo.watchers / createdDelta;
-      });
-
-      // Sort by highest # of watchers.
-      repos.sort(function (a, b) {
-        if (a.hotness < b.hotness) return 1;
-        if (b.hotness < a.hotness) return -1;
-        return 0;
-      });
-
-      $.each(repos, function (i, repo) {
-        addRepo(repo);
-      });
-
-      // Sort by most-recently pushed to.
-      repos.sort(function (a, b) {
-        if (a.pushed_at < b.pushed_at) return 1;
-        if (b.pushed_at < a.pushed_at) return -1;
-        return 0;
-      });
-
-      $.each(repos.slice(0, 3), function (i, repo) {
-        addRecentlyUpdatedRepo(repo);
-      });
-    });
-  });
-
-})(jQuery);
-</script>
-
-
-      </div>
+    <ul class="pager">
       
-        <footer>
-          <p class="meta text-muted">
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-24T16:59:00+02:00" pubdate data-updated="true">Apr 24<span>th</span>, 2014</time>
-            
-          </p>
-          
-            <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://alysisLeonis.github.io/github-page/index.html" data-via="" data-counturl="http://alysisLeonis.github.io/github-page/index.html" >Tweet</a>
-  
-  
-  <div class="g-plusone" data-size="medium"></div>
-  
-  
-    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
-  
-</div>
-
-          
-        </footer>
+        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
       
-    </article>
-    
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
+      
+    </ul>
   </div>
 
   
@@ -362,7 +144,7 @@
       <h3 class="panel-title">GitHub Repos</h3>
   </div>
   <div class="list-group" id="gh_repos">
-    <p class="loading">Status updating...</p>
+    <p class="loading">Status updating&#8230;</p>
   </div>
   
     <div class="gh-profile-link pull-right text-muted">
