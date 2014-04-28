@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Leonis and alysis]]></title>
-  <link href="http://alysisLeonis.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: github | Leonis and alysis]]></title>
+  <link href="http://alysisLeonis.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://alysisLeonis.github.io/"/>
   <updated>2014-04-28T17:11:14+02:00</updated>
   <id>http://alysisLeonis.github.io/</id>
@@ -18,24 +18,36 @@
     <link href="http://alysisLeonis.github.io/hello-github/"/>
     <updated>2014-04-28T16:26:46+02:00</updated>
     <id>http://alysisLeonis.github.io/hello-github</id>
-    <content type="html"><![CDATA[<p>As we love open source and use it on a daily base, we&#8217;d like to contribute and keep the machines working.</p>
+    <content type="html"><![CDATA[<p>As we love open source and use it on a daily base, we&rsquo;d like to contribute and keep the machines working.</p>
+
 <p>All of us developers, DevOps, business guys and designers have their favorite tools, plugins and software which help us work efficiently.</p>
+
 <p>There are enough great projects out in the world to participate and we got a litte bit of time to reinvest in open source.</p>
-<p><!-- more --></p>
-<p><strong>We like:</strong></p>
+
+<!-- more -->
+
+
+<p><em>We like:</em></p>
+
 <ul>
-	<li>Ruby on Rails</li>
-	<li>Redmine Plugins</li>
-	<li>Drupal Plugins</li>
-	<li>Octopress</li>
+<li>Ruby on Rails</li>
+<li>Redmine Plugins</li>
+<li>Drupal Plugins</li>
+<li>Octopress</li>
 </ul>
-<p><strong>We do not like:</strong></p>
+
+
+<p><em>We do not like:</em></p>
+
 <ul>
-	<li>Cool plugins growing old</li>
-	<li>Nasty unstable little scripts killing our time</li>
-	<li>Fixing problems in a lonesome wolf manner</li>
+<li>Cool plugins growing old</li>
+<li>Nasty unstable little scripts killing our time</li>
+<li>Fixing problems in a lonesome wolf manner</li>
 </ul>
-<p>Therefore, this is our GitHub page. We will collect our improvements of scripts, plugins and tools and all the stuff we use all the time and give them back to whom they belong. To all of us.</p>]]></content>
+
+
+<p>Therefore, this is our GitHub page. We will collect our improvements of scripts, plugins and tools and all the stuff we use all the time and give them back to whom they belong. To all of us.</p>
+]]></content>
   </entry>
   
 </feed>
