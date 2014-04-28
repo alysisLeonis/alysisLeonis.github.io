@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>GitHub_page - Leonis and alysis</title>
+  <title>GitHub page - Leonis and alysis</title>
   <meta name="author" content="Leonis Holding">
 
   
@@ -26,14 +26,16 @@
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
   
 
 </head>
 
-  <body   >
+<body   >
     <div id="wrap">
-      <header role="banner">
-        <nav class="navbar navbar-default" role="navigation">
+        <header role="banner">
+            <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -89,15 +91,16 @@
 
 
 
-      </header>
-      <div id="main" class="container">
-        <div id="content">
-          <div class="row">
-  <div class="page-content col-md-9">
-    <article role="article">
-      
+        </header>
+        <div id="main" class="container">
+            
+            <div id="content">
+                <div class="row">
+    <div class="page-content col-md-9">
+        <article role="article">
+        
         <header class="page-header">
-          
+            
             <p class="meta text-muted text-uppercase">
 
 
@@ -112,45 +115,45 @@
 
 
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-24T16:59:00+02:00" pubdate data-updated="true">Apr 24<span>th</span>, 2014</time></p>
-          
-          
+            
+            
             <h1 class="entry-title">
-              GitHub_page
-              
+            GitHub Page
+            
             </h1>
-          
+            
         </header>
-      
-      <div class="entry-content">
-        <!-- stolen and hacked from http://carlboettiger.info/software.html -->
+        
+        <div class="entry-content">
+            <!-- stolen and hacked from http://carlboettiger.info/software.html -->
 
 <style>
 /* don&#8217;t display the page header, we use a *huge* jumbotron in the content. */
-/*header.page-header {
+header.page-header {
     display: none;
-}*/
+}
 </style>
 
 <div class="jumbotron">
-    <h1>CashFlo&#8217;s <strong>COOL</strong> Projects</h1>
+    <h1>open source projects on GitHub</h1>
     <p>
-        Lorem Ipsum Dolor sit Amet. Et Cetera et Rhabarbera.
+        Our contributions to open source
     </p>
     <p class="clearfix">
-        <a class="btn btn-primary btn-lg pull-right" role="button" href="https://github.com//">
-            my GitHub profile »
+        <a class="btn btn-primary btn-lg pull-right" role="button" href="https://github.com/alysisLeonis/">
+            alysisLeonis @ GitHub »
         </a>
     </p>
 </div>
 <div class="row">
-    <div id="statistics" class="col-md-3">
+    <div id="statistics" class="col-sm-3">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Statistics</h3>
             </div>
             <div class="panel-body">
                 <p>
-                    <a href="https://github.com//repositories"><span id="num-repos">&nbsp;</span> public repos</a>
+                    <a href="https://github.com/alysisLeonis/repositories"><span id="num-repos">&nbsp;</span> public repos</a>
                     <br>
                 </p>
                 
@@ -159,10 +162,10 @@
             </div>
         </div>
     </div>
-    <div id="recently-updated" class="col-md-9">
+    <div id="recently-updated" class="col-sm-9">
         <div class="panel panel-primary">
             <div class="panel-heading">
-                <h3 class="panel-title">Recently updated</h3>
+                <h3 class="panel-title">Recently updated repos</h3>
             </div>
             <ul id="recently-updated-repos" class="list-group"></ul>
         </div>
@@ -237,7 +240,7 @@
     $item.appendTo("#repos");
   }
 
-  $.getJSON("https://api.github.com/users/alysisLeonisAdmin/repos?per_page=100&callback=?", function (result) {
+  $.getJSON("https://api.github.com/users/alysisLeonis/repos?per_page=100&callback=?", function (result) {
     var repos = result.data;
 
     $(function () {
@@ -287,10 +290,10 @@
 </script>
 
 
-      </div>
-      
+        </div>
+        
         <footer>
-          <p class="meta text-muted">
+            <p class="meta text-muted">
             
             
 
@@ -307,8 +310,8 @@
 
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-24T16:59:00+02:00" pubdate data-updated="true">Apr 24<span>th</span>, 2014</time>
             
-          </p>
-          
+            </p>
+            
             <div class="sharing">
   
   <a href="//twitter.com/share" class="twitter-share-button" data-url="http://alysisLeonis.github.io/github-page/index.html" data-via="" data-counturl="http://alysisLeonis.github.io/github-page/index.html" >Tweet</a>
@@ -321,16 +324,15 @@
   
 </div>
 
-          
+            
         </footer>
-      
-    </article>
+        
+        </article>
+        
+    </div>
     
-  </div>
-
-  
     <aside class="sidebar col-md-3">
-      
+        
         <section class="panel panel-primary">
   <div class="panel-heading">
     <h3 class="panel-title">Recent Posts</h3>
@@ -338,10 +340,8 @@
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/florians-testeintrag/">Florians Testeintrag</a>
-    
 
-    section.container>div.row
+    
   </div>
 </section>
 <section class="panel panel-info">
@@ -349,12 +349,6 @@
     <h3 class="panel-title">Categories</h3>
   </div>
   <div class="list-group">
-    
-    
-    <a class="list-group-item " href="/blog/categories/testing/index.html">
-        <span class="badge">1</span>
-        testing
-      </a>
     
   </div>
 </section>
@@ -368,7 +362,7 @@
   </div>
   
     <div class="gh-profile-link pull-right text-muted">
-      <a href="https://github.com/alysisLeonisAdmin">@alysisLeonisAdmin</a> on GitHub
+      <a href="https://github.com/alysisLeonis">@alysisLeonis</a> on GitHub
     </div>
   
   <script type="text/javascript">
@@ -382,7 +376,7 @@
         }
 
         github.showRepos({
-            user: 'alysisLeonisAdmin',
+            user: 'alysisLeonis',
             count: 1,
             skip_forks: true,
             target: '#gh_repos'
@@ -394,37 +388,33 @@
 
 
 <section class="googleplus panel panel-danger">
-  <div class="panel-heading">
-    <h3 class="panel-title">Google+</h3>
-  </div>
-  <div class="panel-body">
-  
-<div class="g-page" data-width="240" data-href="//plus.google.com/+LeonisAtHolding" data-theme="dark" data-rel="publisher"></div>
+    <div class="panel-heading">
+        <h3 class="panel-title">Google+</h3>
+    </div>
+    <div class="panel-body">
 
-<!-- Place this tag after the last widget tag. -->
-<script type="text/javascript">
-  window.___gcfg = {lang: 'de'};
-
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-  </div>
-
+        <div class="g-page-container"><div class="g-page" data-width="210" data-href="//plus.google.com/+LeonisAtHolding" data-theme="dark" data-rel="publisher"></div>
+        <!-- Place this tag after the last widget tag. -->
+        <script type="text/javascript">
+        window.___gcfg = {lang: 'de'};
+        (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+        </script>
+    </div>
+</div>
 </section>
 
-      
+        
     </aside>
-  
+    
 </div>
-
+            </div>
         </div>
-      </div>
     </div>
-    <footer role="contentinfo"><div class="container">
+<footer role="contentinfo"><div class="container">
     <p class="text-muted credits">
   Copyright &copy; 2014 - Leonis Holding<br>
   <small>
@@ -435,7 +425,9 @@
 
 </div>
 </footer>
-    <script src="/javascripts/modernizr-2.0.js"></script>
+
+<script src="/javascripts/modernizr-2.0.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
 
@@ -473,8 +465,8 @@
 
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-  </body>
+</body>
 </html>
