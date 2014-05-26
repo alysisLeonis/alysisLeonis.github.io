@@ -4,7 +4,7 @@
 
 url: http://alysisLeonis.github.io
 title: Leonis and alysis
-subtitle: zomg! 1337
+subtitle: our nice Github page
 author: Leonis Holding
 simple_search: https://www.google.com/search
 description: 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email: coding@leonis.at
 # RSS feeds can list your email address if you like
-email:
+email: coding@leonis.at
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -87,7 +87,7 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: 
 delicious_count: 3
 
 # Disqus Comments
@@ -95,7 +95,7 @@ disqus_short_name: alysisLeonisGitHub
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-46460761-5
 
 # Facebook Like
 facebook_like: true
