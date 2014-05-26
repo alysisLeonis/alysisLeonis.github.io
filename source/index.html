@@ -1,0 +1,29 @@
+---
+layout: page
+navbar: Blog
+---
+<style>
+/* don't display the page header, we use a *huge* jumbotron in the content. */
+header.page-header {
+    display: none;
+}
+</style>
+<div class="jumbotron">
+    <h1>alysisLeonis</h1>
+    <p>
+    Deployed for testing purpose. Please be so kind as to wait a couple of days until we're online.
+    </p>
+    <p class="clearfix">
+
+    </p>
+</div>
+<div class="blog-index">
+    {% assign index = true %}
+    {% for post in site.posts %}
+    {% assign content = post.content %}
+    <h2><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h2>
+    <article class="post">
+    {% include article.html %}
+    </article>
+    {% endfor %}
+</div>

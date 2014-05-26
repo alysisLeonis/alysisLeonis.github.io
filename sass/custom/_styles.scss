@@ -1,0 +1,69 @@
+
+
+/* nice sticky footer, from http://getbootstrap.com/examples/sticky-footer/ */
+html, body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+footer[role=contentinfo] {
+    height: 60px;
+}
+
+
+.panel-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}
+
+.container .jumbotron {
+  border-radius: 8px
+
+}
+.img-rounded {
+    border-radius: 6px
+}
+
+.img-thumbnail {
+    border-radius: 4px; 
+}
+
+code, kbd, pre, .form-control, .btn, .dropdown-menu, .thumbnail, .progress, .panel, .panel-group .panel, .well{
+  
+      border-radius: 4px
+}
+
+pre code, .btn-link{
+  border-radius: 0;
+}
+
+.googleplus .panel-body {
+  padding:0 0;
+  background: #1D1D1D
+}
+
+.googleplus .panel-body > .g-page-container {
+  margin: 0 auto;  
+  display:block;
+  border:0;
+}
+
+.googleplus .panel-body > .g-page-container > div, .g-page-container iframe{
+  margin: 0 auto !important;  
+  display:block !important;
+  border:0;
+
+}

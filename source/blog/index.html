@@ -1,0 +1,16 @@
+---
+layout: page
+navbar: Blog
+title: Blog
+footer: true
+---
+
+<div class="blog-index">
+      {% assign index = true %}
+      {% for post in site.posts %}
+      {% assign content = post.content %}
+        <article class="post">
+          {% include article.html %}
+        </article>
+      {% endfor %}
+    </div>

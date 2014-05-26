@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Hello GitHub"
+date: 2014-04-28 16:26:46 +0200
+comments: true
+categories: [github, open-source]
+---
+
+As we love open source and use it on a daily base, we'd like to contribute and keep the machines working.
+
+All of us developers, DevOps, business guys and designers have their favorite tools, plugins and software which help us work efficiently.
+
+
+There are enough great projects out in the world to participate and we got a litte bit of time to reinvest in open source. 
+
+<!-- more -->
+
+*We like:*
+
+* Ruby on Rails
+* Redmine Plugins
+* Drupal Plugins
+* Octopress 
+
+*We do not like:*
+
+* Cool plugins growing old 
+* Nasty unstable little scripts killing our time
+* Fixing problems in a lonesome wolf manner
+
+Therefore, this is our GitHub page. We will collect our improvements of scripts, plugins and tools and all the stuff we use all the time and give them back to whom they belong. To all of us.
