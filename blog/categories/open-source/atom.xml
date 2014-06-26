@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: open-source | Leonis and alysis]]></title>
+  <link href="http://alysisLeonis.github.io/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://alysisLeonis.github.io/"/>
+  <updated>2014-06-26T15:21:32+02:00</updated>
+  <id>http://alysisLeonis.github.io/</id>
+  <author>
+    <name><![CDATA[Leonis Holding]]></name>
+    <email><![CDATA[coding@leonis.at]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello GitHub]]></title>
+    <link href="http://alysisLeonis.github.io/hello-github/"/>
+    <updated>2014-04-28T16:26:46+02:00</updated>
+    <id>http://alysisLeonis.github.io/hello-github</id>
+    <content type="html"><![CDATA[<p>As we love Open Source Software and make use of it on a daily basis, we definitely like to contribute to great projects, thus keeping systems up and running.</p>
+
+<p>All of us developers, DevOps, business guys and designers have their favorite tools, plugins and software which help us work efficiently.</p>
+
+<p>There&rsquo;s a vast number of great projects out in the open to participate in, so we take a litte bit of our time for contributing.</p>
+
+<!-- more -->
+
+
+<p><em>We like:</em></p>
+
+<ul>
+<li>Ruby on Rails</li>
+<li>Redmine Plugins</li>
+<li>Drupal Plugins</li>
+<li>Octopress</li>
+</ul>
+
+
+<p><em>We do not like:</em></p>
+
+<ul>
+<li>Cool plugins growing old</li>
+<li>Nasty unstable little scripts killing our time</li>
+<li>Fixing problems in a lonesome wolf manner</li>
+</ul>
+
+
+<p>Therefore, this is our GitHub page. We will collect our improvements of scripts, plugins and tools and all the stuff we use all the time and give them back to whom they belong. To all of us.</p>
+]]></content>
+  </entry>
+  
+</feed>
