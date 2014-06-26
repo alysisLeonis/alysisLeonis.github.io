@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Wiki | Leonis and alysis]]></title>
+  <link href="http://alysisLeonis.github.io/blog/categories/wiki/atom.xml" rel="self"/>
+  <link href="http://alysisLeonis.github.io/"/>
+  <updated>2014-06-26T06:57:39+02:00</updated>
+  <id>http://alysisLeonis.github.io/</id>
+  <author>
+    <name><![CDATA[Leonis Holding]]></name>
+    <email><![CDATA[coding@leonis.at]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Wiki Placeholder]]></title>
+    <link href="http://alysisLeonis.github.io/wiki-placeholder/"/>
+    <updated>2014-06-26T06:44:52+02:00</updated>
+    <id>http://alysisLeonis.github.io/wiki-placeholder</id>
+    <content type="html"><![CDATA[<p>This is a generic placeholder to be filled with content soon. Please be patient until we create this content &ndash; we are currently focussing on our great plugins and software.</p>
+]]></content>
+  </entry>
+  
+</feed>
