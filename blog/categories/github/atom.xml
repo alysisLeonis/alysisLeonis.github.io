@@ -4,19 +4,11 @@
   <title><![CDATA[Category: github | Leonis and alysis]]></title>
   <link href="http://alysisLeonis.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://alysisLeonis.github.io/"/>
-<<<<<<< HEAD
   <updated>2014-06-26T15:37:30+02:00</updated>
   <id>http://alysisLeonis.github.io/</id>
   <author>
     <name><![CDATA[Leonis Holding]]></name>
     <email><![CDATA[coding@leonis.at]]></email>
-=======
-  <updated>2014-04-28T17:11:14+02:00</updated>
-  <id>http://alysisLeonis.github.io/</id>
-  <author>
-    <name><![CDATA[Leonis Holding]]></name>
-    
->>>>>>> d49a6b089a5c90afe9ce081a51ee613d72f0d363
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -26,19 +18,11 @@
     <link href="http://alysisLeonis.github.io/hello-github/"/>
     <updated>2014-04-28T16:26:46+02:00</updated>
     <id>http://alysisLeonis.github.io/hello-github</id>
-<<<<<<< HEAD
     <content type="html"><![CDATA[<p>As we love Open Source Software and make use of it on a daily basis, we definitely like to contribute to great projects, thus keeping systems up and running.</p>
 
 <p>All of us developers, DevOps, business guys and designers have their favorite tools, plugins and software which help us work efficiently.</p>
 
 <p>There&rsquo;s a vast number of great projects out in the open to participate in, so we take a litte bit of our time for contributing.</p>
-=======
-    <content type="html"><![CDATA[<p>As we love open source and use it on a daily base, we&rsquo;d like to contribute and keep the machines working.</p>
-
-<p>All of us developers, DevOps, business guys and designers have their favorite tools, plugins and software which help us work efficiently.</p>
-
-<p>There are enough great projects out in the world to participate and we got a litte bit of time to reinvest in open source.</p>
->>>>>>> d49a6b089a5c90afe9ce081a51ee613d72f0d363
 
 <!-- more -->
 
