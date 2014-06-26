@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Wiki Placeholder"
+date: 2014-06-26 06:44:52 +0200
+comments: true
+categories: Wiki
+tags: Demo
+---
+
+This is a generic placeholder to be filled with content soon. Please be patient until we create this content - we are currently focussing on our great plugins and software.
