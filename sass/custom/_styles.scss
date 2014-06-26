@@ -15,6 +15,11 @@ html, body {
   padding: 0 0 60px;
 }
 
+/* Padding für navbar-fixed-top */
+body {
+  padding-top: 80px; /* body padding for fixed top nav */
+}
+
 /* Set the fixed height of the footer here */
 footer[role=contentinfo] {
     height: 60px;

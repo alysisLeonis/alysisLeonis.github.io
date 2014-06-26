@@ -1,6 +1,5 @@
 ---
-layout: page
-navbar: Blog
+layout: default
 ---
 <style>
 /* don't display the page header, we use a *huge* jumbotron in the content. */
@@ -8,7 +7,10 @@ header.page-header {
     display: none;
 }
 </style>
-<div class="jumbotron">
+<div class="row">
+  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
+    <div class="blog-index">
+      <div class="jumbotron">
     <h2>alysis &amp; Leonis Holding</h2>
     <p>
     How we contribute to Open Source
@@ -163,7 +165,6 @@ header.page-header {
 })(jQuery);
 </script>
 <!-- Ende GitHub Repos -->
-<hr>
 <div class="row">
     <div class="jumbotron">
         <div class="alert alert-info">
@@ -171,13 +172,40 @@ header.page-header {
         </div>
     </div>
 </div>
-<div class="blog-index">
-    {% assign index = true %}
-    {% for post in site.posts %}
-    {% assign content = post.content %}
-    <h2><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h2>
-    <article class="post">
-    {% include article.html %}
-    </article>
-    {% endfor %}
+<hr>
+
+
+      {% assign index = true %}
+      {% for post in paginator.posts %}
+      {% assign content = post.content %}
+        <article class="post">
+          {% include article.html %}
+        </article>
+      {% endfor %}
+    </div>
+
+    <ul class="pager">
+      {% if paginator.next_page %}
+        <li class="previous"><a href="{{paginator.next_page}}">&larr;&nbsp;Older</a></li>
+      {% else %}
+        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
+      {% endif %}
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      {% if paginator.previous_page %}
+        <li class="next"><a href="{{paginator.previous_page}}">Newer&nbsp;&rarr;</a></li>
+      {% else %}
+        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
+      {% endif %}
+    </ul>
+  </div>
+
+  {% unless site.default_asides == empty and site.blog_index_asides == empty %}
+    <aside class="sidebar col-md-3">
+      {% if site.blog_index_asides.size %}
+        {% include_array blog_index_asides %}
+      {% else %}
+        {% include_array default_asides %}
+      {% endif %}
+    </aside>
+  {% endunless %}
 </div>
