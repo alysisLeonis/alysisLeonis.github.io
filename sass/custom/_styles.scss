@@ -1,5 +1,4 @@
-
-
+@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700);
 /* nice sticky footer, from http://getbootstrap.com/examples/sticky-footer/ */
 html, body {
     height: 100%;
@@ -120,3 +119,33 @@ pre code, .btn-link{
   border-radius: 20px!important;
 }
 /* End Tag Generator */
+
+/* Fonts override */
+/* font-family: 'Cantarell', sans-serif; */
+
+body {
+  font-family: 'Cantarell', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Cantarell', sans-serif;
+}
+
+/* 
+h1,h2,h3{margin-top:32px;margin-bottom:12px}h1,h2,h3{font-weight:normal}
+
+#blog-archives h1 a{font-weight:normal;display:inline-block}
+#blog-archives h2{float:left;margin-top:1.8em;font-weight:normal;display:inline-block;position:relative}
+
+*/
