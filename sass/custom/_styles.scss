@@ -67,3 +67,56 @@ pre code, .btn-link{
   border:0;
 
 }
+/* Tag Generator Styles */
+.tags-1 {
+  padding: 3px 4px!important;
+  font-size: 11px;
+}
+ 
+.tags-1>.badge {
+  padding: 3px 5px!important;
+  font-size: 9px;
+}
+ 
+.tags-5 {
+  padding: 4px 7px!important;
+  font-size: 12px;
+}
+ 
+.tags-5>.badge {
+  padding: 4px 6px!important;
+  font-size: 10px;
+}
+ 
+.tags-10 {
+  padding: 5px 9px!important;
+  font-size: 13px;
+}
+ 
+.tags-10>.badge {
+  padding: 4px 7px!important;
+  font-size: 12px;
+}
+ 
+.tags-15 {
+  padding: 6px 10px!important;
+  font-size: 15px;
+  border-radius: 15px!important;
+}
+ 
+.tags-15>.badge {
+  padding: 5px 8px!important;
+  font-size: 13px;
+}
+ 
+.tags-20 {
+  padding: 6px 15px!important;
+  font-size: 16px;
+}
+ 
+.tags-20>.badge {
+  padding: 5px 9px!important;
+  font-size: 14px;
+  border-radius: 20px!important;
+}
+/* End Tag Generator */
