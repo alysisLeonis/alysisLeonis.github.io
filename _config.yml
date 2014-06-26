@@ -103,3 +103,7 @@ facebook_like: true
 # Tag Generator Settings
 tag_dir: blog/tag
 tag_index_dir: blog/tags
+
+# Hide Categories
+front_page_categories: [Wiki, UserGuide, AdminGuide]
+front_page_categories_op : 'hide'  

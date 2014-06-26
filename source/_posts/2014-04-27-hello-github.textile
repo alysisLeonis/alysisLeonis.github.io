@@ -4,6 +4,7 @@ title: "Hello GitHub"
 date: 2014-04-28 16:26:46 +0200
 comments: true
 categories: [github, open-source]
+tags: [Welcome]
 ---
 
 As we love Open Source Software and make use of it on a daily basis, we definitely like to contribute to great projects, thus keeping systems up and running.

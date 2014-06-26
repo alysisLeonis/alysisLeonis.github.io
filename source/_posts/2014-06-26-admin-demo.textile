@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Admin Demo"
+date: 2014-06-26 06:39:17 +0200
+comments: true
+categories: AdminGuide
+tags: Demo
+---
+
+h3. This is a demonstration post
+
+It shows how great the pagination.rb works with _config.yml.
+<!-- more -->
+
+Obviously this page only shows posts of the AdminGuide category. Lovely, huh?

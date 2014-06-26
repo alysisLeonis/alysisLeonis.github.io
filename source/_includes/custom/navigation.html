@@ -16,7 +16,7 @@
                 </li>
                  --> 
                  <li {% if page.navbar == 'Archives' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Archives</a>
+                    <a href="{{ root_url }}/blog/archives"><i class="fa fa-folder-open-o fa-fw"></i> Archives</a>
                 </li>
                 
                 <!-- <li {% if  == 'GitHub' %}class="active"{% endif %}>
@@ -27,6 +27,20 @@
                       </li>
                     </ul>
                 </li> -->
+                <li {% if  == 'Documentation' %}class="active"{% endif %}>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-puzzle-piece fa-fw"></i> Documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="{{ root_url }}/wikis/"><i class="fa fa-lightbulb-o fa-fw"></i> Wikis</a>
+                      </li>
+                      <li>
+                        <a href="{{ root_url }}/admin-guides/"><i class="fa fa-cogs fa-fw"></i> Admin Guides</a>
+                      </li>
+                      <li>
+                        <a href="{{ root_url }}/user-guides/"><i class="fa fa-file-text-o fa-fw"></i> User Guides</a>
+                      </li>
+                    </ul>
+                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
